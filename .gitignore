@@ -1,1 +1,39 @@
+# Dữ liệu thô và file ảnh
 *.tif
+*.tiff
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.csv
+*.parquet
+*.feather
+
+# Dataset folders
+data/
+dataset/
+raw/
+processed/
+DakLak_*/
+
+# Model & weights
+*.h5
+*.pth
+*.pkl
+*.pickle
+*.joblib
+models/
+weights/
+checkpoints/
+
+# Cache & temp
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints
